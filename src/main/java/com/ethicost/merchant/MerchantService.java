@@ -1,7 +1,5 @@
-package com.ethicost.service;
+package com.ethicost.merchant;
 
-import com.ethicost.model.Merchant;
-import com.ethicost.repository.MerchantRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

@@ -1,11 +1,10 @@
 package com.ethicost.controller;
 
-import com.ethicost.model.Merchant;
-import com.ethicost.service.MerchantService;
+import com.ethicost.merchant.Merchant;
+import com.ethicost.merchant.MerchantService;
 import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
-import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;

@@ -1,6 +1,5 @@
-package com.ethicost.repository;
+package com.ethicost.merchant;
 
-import com.ethicost.model.Merchant;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
