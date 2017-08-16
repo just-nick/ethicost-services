@@ -1,5 +1,6 @@
-package com.ethicost;
+package com.ethicost.service;
 
+import com.ethicost.model.OAuthToken;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.env.Environment;
 import org.springframework.http.HttpEntity;

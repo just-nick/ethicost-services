@@ -1,4 +1,4 @@
-package com.ethicost;
+package com.ethicost.model;
 
 import lombok.Getter;
 import lombok.Setter;
