@@ -52,7 +52,8 @@ public class OAuthService {
         HttpEntity<MultiValueMap<String, String>> entity = new HttpEntity<>(oauthInputData, headers);
 
         try {
-            return restTemplate.postForEntity(apiPath, entity, OAuthToken.class);
+            ResponseEntity<OAuthToken> responseEntity=  restTemplate.postForEntity(apiPath, entity, OAuthToken.class);
+            return responseEntity;
         } catch (Exception e) {
             log.error(e.getMessage());
             return null;
