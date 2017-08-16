@@ -2,9 +2,15 @@
 
 ## Prerequisites
 
+* Maven
+* Java 1.8
+* PSQL
+
 ## Setup
 
-todo
+Start docker:
+
+`./create-docker.sh`
 
 ## Start
 

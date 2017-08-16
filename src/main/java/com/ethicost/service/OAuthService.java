@@ -1,6 +1,7 @@
 package com.ethicost.service;
 
 import com.ethicost.model.OAuthToken;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.env.Environment;
 import org.springframework.http.HttpEntity;
@@ -12,6 +13,7 @@ import org.springframework.util.LinkedMultiValueMap;
 import org.springframework.util.MultiValueMap;
 import org.springframework.web.client.RestTemplate;
 
+@Slf4j
 @Service
 public class OAuthService {
 
@@ -29,16 +31,14 @@ public class OAuthService {
 
     public ResponseEntity<OAuthToken> getToken(String accessCode) {
 
-        String baseApiUrl = environment.getProperty("macquarie.api");
-        String oauthTokenPath = environment.getProperty("macquarie.oauth.token");
-        String oauthClientId = environment.getProperty("macquarie.oauth.clinetId");
+        String baseApiUrl = environment.getProperty("macquarie.apiUrl");
+        String oauthTokenPath = environment.getProperty("macquarie.oauth.tokenPath");
+        String oauthClientId = environment.getProperty("macquarie.oauth.clientId");
         String oauthClientSecret = environment.getProperty("macquarie.oauth.clientSecret");
         String oauthGrantType = environment.getProperty("macquarie.oauth.grantType");
 
-
         RestTemplate restTemplate = new RestTemplate();
         String apiPath = baseApiUrl + oauthTokenPath;
-
 
         HttpHeaders headers = new HttpHeaders();
         headers.setContentType(MediaType.APPLICATION_FORM_URLENCODED);
@@ -49,7 +49,13 @@ public class OAuthService {
         oauthInputData.add(GRANT_TYPE, oauthGrantType);
         oauthInputData.add(CODE, accessCode);
 
-        HttpEntity<MultiValueMap<String, String>> entity = new HttpEntity<MultiValueMap<String, String>>(oauthInputData, headers);
-        return restTemplate.postForEntity(apiPath, entity, OAuthToken.class);
+        HttpEntity<MultiValueMap<String, String>> entity = new HttpEntity<>(oauthInputData, headers);
+
+        try {
+            return restTemplate.postForEntity(apiPath, entity, OAuthToken.class);
+        } catch (Exception e) {
+            log.error(e.getMessage());
+            return null;
+        }
     }
 }
