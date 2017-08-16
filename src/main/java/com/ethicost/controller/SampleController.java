@@ -5,6 +5,7 @@ import com.ethicost.service.MerchantService;
 import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
+import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
@@ -30,6 +31,12 @@ public class SampleController {
     @ResponseBody
     public String test() {
         return "This is merchant.";
+    }
+
+    @RequestMapping("/merchant/test")
+    @ResponseBody
+    public String test1() {
+        return String.valueOf(merchantService.insertMerchant());
     }
 
     @RequestMapping("/merchant/all")
