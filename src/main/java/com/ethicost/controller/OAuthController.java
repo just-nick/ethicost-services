@@ -2,6 +2,7 @@ package com.ethicost.controller;
 
 import com.ethicost.service.OAuthService;
 import com.ethicost.model.OAuthToken;
+import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
@@ -12,14 +13,10 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
 @RequestMapping("/api/oauth")
+@AllArgsConstructor(onConstructor = @__({@Autowired}))
 public class OAuthController {
 
     private final OAuthService oAuthService;
-
-    @Autowired
-    public OAuthController(OAuthService oAuthService) {
-        this.oAuthService = oAuthService;
-    }
 
     @GetMapping("/token")
     @ResponseBody()

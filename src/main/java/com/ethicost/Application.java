@@ -9,7 +9,7 @@ import org.springframework.web.filter.CommonsRequestLoggingFilter;
 
 @SpringBootApplication
 @EnableAutoConfiguration
-@EntityScan(basePackages = {"com.ethicost.model"})
+@EntityScan(basePackages = {"com.ethicost"})
 public class Application {
 
     public static void main(String[] args) {

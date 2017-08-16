@@ -43,7 +43,6 @@ public class SampleController {
     public String getAllMerchants() {
         Iterable<Merchant> merchants = merchantService.findAllMerchants();
 
-
         if (merchants.iterator().hasNext()) {
             return merchants.iterator().next().getMerchantName();
         }
