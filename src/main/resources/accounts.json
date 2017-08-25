@@ -1,0 +1,46 @@
+{
+  "accounts": [
+    {
+      "account_id": "0c4c87e4-5a15-4cb8-b645-93e2822a6298",
+      "account_nickname": "Mike Savings Account",
+      "account_number": "000183863-182182-AU-AUD",
+      "product_category": "savings",
+      "product_name": "Macquarie Savings"
+    },
+    {
+      "account_id": "1a4ac1a5-eed2-4630-abab-d6d23d4a5a6b",
+      "account_nickname": "Credit card Account",
+      "account_number": "XXXX XXXX XXXX 5750",
+      "product_category": "credit card",
+      "product_name": "Macquarie Black Card"
+    },
+    {
+      "account_id": "a09a7ecf-e323-4006-9d5b-13b0bbf4fcaa",
+      "account_nickname": "Loan",
+      "account_number": "123255887",
+      "product_category": "mortgages",
+      "product_name": "Macquarie Loans"
+    },
+    {
+      "account_id": "123e4567-e89b-12d3-a456-426655440000",
+      "account_nickname": "",
+      "account_number": "000122482326",
+      "product_category": "cash",
+      "product_name": "Macquarie Cash"
+    },
+    {
+      "account_id": "7a1b7012-8d71-411a-ac2b-b5006febe8a0",
+      "account_nickname": "Super Macquarie A/c",
+      "account_number": "000213389-182182-AU-AUD",
+      "product_category": "transaction",
+      "product_name": "Macquarie transaction"
+    },
+    {
+      "account_id": "7ee9cd9a-f195-4ee4-81c2-7d17f47719e7",
+      "account_nickname": "My Platinum",
+      "account_number": "000103259-182182-AU-AUD",
+      "product_category": "transaction",
+      "product_name": "Macquarie Platinum transaction"
+    }
+  ]
+}

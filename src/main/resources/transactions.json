@@ -1,0 +1,1604 @@
+{
+  "transactions": [
+    {
+      "id": "2d36ce92-0641-476a-9979-c8a79f4a5e2e",
+      "merchant": "Stix Catering",
+      "description": "Stix Catering Pty ltd    Sydney",
+      "amount": 15,
+      "running_balance": 1214.24,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-23",
+      "effective_date": "2017-08-24",
+      "location": {
+        "lat": "-33.865974",
+        "lng": "151.202356"
+      },
+      "category": "Food & Drink:Restaurants"
+    },
+    {
+      "id": "8e167051-cadf-44bb-910d-8f4c53c7e8f0",
+      "merchant": "Vessel Italian & Bar",
+      "description": "VESSEL SYDNEY",
+      "amount": 9.5,
+      "running_balance": 1229.24,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-23",
+      "effective_date": "2017-08-24",
+      "location": {
+        "lat": "-33.865966",
+        "lng": "151.200130"
+      },
+      "category": "Food & Drink:Restaurants"
+    },
+    {
+      "id": "3f8e9f1c-711c-45cd-845f-ef022f2a7617",
+      "merchant": "About Life Natural Market Place",
+      "description": "ABOUT LIFE PTY LTD ROZELLE",
+      "amount": 16.25,
+      "running_balance": 1238.74,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-23",
+      "effective_date": "2017-08-24",
+      "location": {
+        "lat": "-33.861162",
+        "lng": "151.1713175"
+      },
+      "category": "Food & Drink:Groceries"
+    },
+    {
+      "id": "742f8d11-7281-4c91-8a41-bcbd4742f31a",
+      "merchant": "",
+      "description": "BIG W 0182 HURSTVILLE",
+      "amount": 12.95,
+      "running_balance": 1254.99,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-23",
+      "effective_date": "2017-08-24",
+      "location": {
+        "lat": "-1.0",
+        "lng": "-1.0"
+      },
+      "category": "Personal:Other Personal Expenses"
+    },
+    {
+      "id": "d8acb84a-8e0c-4ec7-adc4-2f02599b647c",
+      "merchant": "GPO Grand Restaurants & Bars | Sydney",
+      "description": "GPO RESTAURANT AND B SYDNEY",
+      "amount": 3.8,
+      "running_balance": 1267.94,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-23",
+      "effective_date": "2017-08-24",
+      "location": {
+        "lat": "-33.867685",
+        "lng": "151.20770299999998"
+      },
+      "category": "Food & Drink:Restaurants"
+    },
+    {
+      "id": "a43cad33-4006-47fe-ae71-c052dc13be74",
+      "merchant": "",
+      "description": "BIG W 0182 HURSTVILLE",
+      "amount": 12.95,
+      "running_balance": 1271.74,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-22",
+      "effective_date": "2017-08-23",
+      "location": {
+        "lat": "-1.0",
+        "lng": "-1.0"
+      },
+      "category": "Personal:Other Personal Expenses"
+    },
+    {
+      "id": "8f97cefd-f88a-436f-a0d8-a4885ff64291",
+      "merchant": "Stix Catering",
+      "description": "Stix Catering Pty Ltd Sydney",
+      "amount": 4,
+      "running_balance": 1284.69,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-22",
+      "effective_date": "2017-08-23",
+      "location": {
+        "lat": "-33.865974",
+        "lng": "151.202356"
+      },
+      "category": "Food & Drink:Other Food Expenses"
+    },
+    {
+      "id": "8be8b883-7d54-4d16-841b-e716014f3ae9",
+      "merchant": "Vessel Italian & Bar",
+      "description": "VESSEL SYDNEY",
+      "amount": 7,
+      "running_balance": 1288.69,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-22",
+      "effective_date": "2017-08-23",
+      "location": {
+        "lat": "-33.865966",
+        "lng": "151.200130"
+      },
+      "category": "Food & Drink:Restaurants"
+    },
+    {
+      "id": "408abd5a-a88d-4748-b586-5d6a35768350",
+      "merchant": "GPO Grand Restaurants & Bars | Sydney",
+      "description": "GPO RESTAURANT AND B SYDNEY",
+      "amount": 3.8,
+      "running_balance": 1295.69,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-22",
+      "effective_date": "2017-08-23",
+      "location": {
+        "lat": "-33.867685",
+        "lng": "151.20770299999998"
+      },
+      "category": "Food & Drink:Restaurants"
+    },
+    {
+      "id": "2bd9c0de-6f47-471c-ac82-d8d0710f2cf4",
+      "merchant": "",
+      "description": "IRONGRILL SYDNEY",
+      "amount": 13,
+      "running_balance": 1299.49,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-22",
+      "effective_date": "2017-08-23",
+      "location": {
+        "lat": "-27.03121",
+        "lng": "134.17314"
+      },
+      "category": "Food & Drink:Other Food Expenses"
+    },
+    {
+      "id": "e37e30b6-3019-4c3c-9976-6256f3074a17",
+      "merchant": "",
+      "description": "EAT NOW SERVICES PL MULGRAVE",
+      "amount": 49.2,
+      "running_balance": 1312.49,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-22",
+      "effective_date": "2017-08-23",
+      "location": {
+        "lat": "-1.0",
+        "lng": "-1.0"
+      },
+      "category": "Food & Drink:Restaurants"
+    },
+    {
+      "id": "f7ac3dbc-999f-4385-be35-f3b566c2c0c6",
+      "merchant": "Stix Catering",
+      "description": "Stix Catering Pty Ltd Sydney",
+      "amount": 3.5,
+      "running_balance": 1361.69,
+      "currency_code": "AUD",
+      "cr_dr_flag": "CR",
+      "transaction_date": "2017-08-21",
+      "effective_date": "2017-08-22",
+      "location": {
+        "lat": "-33.865974",
+        "lng": "151.202356"
+      },
+      "category": "Food & Drink:Other Food Expenses"
+    },
+    {
+      "id": "78776767-707e-43fc-8a44-08793e94c717",
+      "merchant": "About Life Natural Market Place",
+      "description": "ABOUT LIFE PTY LTD ROZELLE",
+      "amount": 2.6,
+      "running_balance": 1358.19,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-21",
+      "effective_date": "2017-08-22",
+      "location": {
+        "lat": "-33.861162",
+        "lng": "151.1713175"
+      },
+      "category": "Food & Drink:Groceries"
+    },
+    {
+      "id": "33a7f398-3719-4bc6-aa21-43e834abc2b1",
+      "merchant": "",
+      "description": "BIG W 0182 HURSTVILLE",
+      "amount": 12.95,
+      "running_balance": 1360.79,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-21",
+      "effective_date": "2017-08-22",
+      "location": {
+        "lat": "-1.0",
+        "lng": "-1.0"
+      },
+      "category": "Personal:Other Personal Expenses"
+    },
+    {
+      "id": "ebc3bc9a-295d-4814-a965-92050c2afe79",
+      "merchant": "",
+      "description": "IRONGRILL SYDNEY",
+      "amount": 12,
+      "running_balance": 1373.74,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-21",
+      "effective_date": "2017-08-22",
+      "location": {
+        "lat": "-27.03121",
+        "lng": "134.17314"
+      },
+      "category": "Food & Drink:Other Food Expenses"
+    },
+    {
+      "id": "2da9bece-d9c2-4f80-a14a-8987af187652",
+      "merchant": "GPO Grand Restaurants & Bars | Sydney",
+      "description": "GPO RESTAURANT AND B SYDNEY",
+      "amount": 3.8,
+      "running_balance": 1385.74,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-21",
+      "effective_date": "2017-08-22",
+      "location": {
+        "lat": "-33.867685",
+        "lng": "151.20770299999998"
+      },
+      "category": "Food & Drink:Restaurants"
+    },
+    {
+      "id": "17e366c9-be44-443d-bad1-50efae5a5af8",
+      "merchant": "",
+      "description": "HAIGH RETAIL PTY LTD SYDNEY",
+      "amount": 8.8,
+      "running_balance": 1389.54,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-21",
+      "effective_date": "2017-08-22",
+      "location": {
+        "lat": "-1.0",
+        "lng": "-1.0"
+      },
+      "category": "Food & Drink:Snacks"
+    },
+    {
+      "id": "e7a1a948-fea6-46fe-b2f1-4de98328c397",
+      "merchant": "GPO Grand Restaurants & Bars | Sydney",
+      "description": "GPO RESTAURANT AND B SYDNEY",
+      "amount": 3.8,
+      "running_balance": 1398.34,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-20",
+      "effective_date": "2017-08-21",
+      "location": {
+        "lat": "-33.867685",
+        "lng": "151.20770299999998"
+      },
+      "category": "Food & Drink:Restaurants"
+    },
+    {
+      "id": "558b9a1e-86f9-4980-90ba-5a6befd16845",
+      "merchant": "About Life Natural Market Place",
+      "description": "ABOUT LIFE PTY LTD ROZELLE",
+      "amount": 16.25,
+      "running_balance": 1402.14,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-20",
+      "effective_date": "2017-08-21",
+      "location": {
+        "lat": "-33.861162",
+        "lng": "151.1713175"
+      },
+      "category": "Food & Drink:Groceries"
+    },
+    {
+      "id": "642d406e-846d-4899-bced-7799f3e1f7c2",
+      "merchant": "",
+      "description": "BIG W 0182 HURSTVILLE",
+      "amount": 12.95,
+      "running_balance": 1418.39,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-20",
+      "effective_date": "2017-08-21",
+      "location": {
+        "lat": "-1.0",
+        "lng": "-1.0"
+      },
+      "category": "Personal:Other Personal Expenses"
+    },
+    {
+      "id": "3b12a2fb-82c2-4346-be39-2a34ad42934c",
+      "merchant": "Stix Catering",
+      "description": "Stix Catering Pty Ltd Sydney",
+      "amount": 3,
+      "running_balance": 1431.34,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-20",
+      "effective_date": "2017-08-21",
+      "location": {
+        "lat": "-33.865974",
+        "lng": "151.202356"
+      },
+      "category": "Food & Drink:Other Food Expenses"
+    },
+    {
+      "id": "2cca1d97-d89d-4cce-9f3c-96420542f32a",
+      "merchant": "Shirt Bar",
+      "description": "SHIRT BAR SYDNEY",
+      "amount": 6.6,
+      "running_balance": 1434.34,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-19",
+      "effective_date": "2017-08-20",
+      "location": {
+        "lat": "-33.86662",
+        "lng": "151.203994"
+      },
+      "category": "Personal:Clothing"
+    },
+    {
+      "id": "ce2c6e33-66e4-47af-9935-73ed3d3fc32d",
+      "merchant": "Subway Restaurant",
+      "description": "SUBWAY KING STREET        SYDNEY",
+      "amount": 10.2,
+      "running_balance": 1440.94,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-19",
+      "effective_date": "2017-08-20",
+      "location": {
+        "lat": "-33.8686523",
+        "lng": "151.20540699999998"
+      },
+      "category": "Food & Drink:Fast Food"
+    },
+    {
+      "id": "7dfce99d-f5da-498a-9b42-ee47b0b6e920",
+      "merchant": "GPO Grand Restaurants & Bars | Sydney",
+      "description": "GPO RESTAURANT AND B SYDNEY",
+      "amount": 3.8,
+      "running_balance": 1451.14,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-19",
+      "effective_date": "2017-08-20",
+      "location": {
+        "lat": "-33.867685",
+        "lng": "151.20770299999998"
+      },
+      "category": "Food & Drink:Restaurants"
+    },
+    {
+      "id": "805aa286-82df-41fc-ada2-49d2c98e0fb2",
+      "merchant": "Stix Catering",
+      "description": "Stix Catering Pty ltd    Sydney",
+      "amount": 10,
+      "running_balance": 1454.94,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-19",
+      "effective_date": "2017-08-20",
+      "location": {
+        "lat": "-33.865974",
+        "lng": "151.202356"
+      },
+      "category": "Food & Drink:Restaurants"
+    },
+    {
+      "id": "8926c2bc-d82b-4e92-918e-39ff2702bc29",
+      "merchant": "Vessel Italian & Bar",
+      "description": "VESSEL SYDNEY",
+      "amount": 9.5,
+      "running_balance": 1464.94,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-19",
+      "effective_date": "2017-08-20",
+      "location": {
+        "lat": "-33.865966",
+        "lng": "151.200130"
+      },
+      "category": "Food & Drink:Restaurants"
+    },
+    {
+      "id": "7c563073-4905-43d5-a353-15d5675231b9",
+      "merchant": "",
+      "description": "KRISHNA TRADELINK PTY LTD QUAKERS HILL",
+      "amount": 8.4,
+      "running_balance": 1474.44,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-18",
+      "effective_date": "2017-08-19",
+      "location": {
+        "lat": "-1.0",
+        "lng": "-1.0"
+      },
+      "category": "Food & Drink:Groceries"
+    },
+    {
+      "id": "eaf5054b-604a-48ba-acb5-58a49ea9b26e",
+      "merchant": "",
+      "description": "BASKET GROUP PTY LTD SYDNEY",
+      "amount": 10,
+      "running_balance": 1482.84,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-18",
+      "effective_date": "2017-08-19",
+      "location": {
+        "lat": "-1.0",
+        "lng": "-1.0"
+      },
+      "category": "Food & Drink:Groceries"
+    },
+    {
+      "id": "b6b0714b-43f1-4243-a239-3195eebdc56d",
+      "merchant": "",
+      "description": "IRONGRILL SYDNEY",
+      "amount": 12,
+      "running_balance": 1492.84,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-18",
+      "effective_date": "2017-08-19",
+      "location": {
+        "lat": "-27.03121",
+        "lng": "134.17314"
+      },
+      "category": "Food & Drink:Other Food Expenses"
+    },
+    {
+      "id": "8d7a7221-2fcd-449b-930b-999f85b6910c",
+      "merchant": "Craven's Pharmacy",
+      "description": "CRAVENS PHARMACY ALBERT PARK",
+      "amount": 50.9,
+      "running_balance": 1504.84,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-18",
+      "effective_date": "2017-08-19",
+      "location": {
+        "lat": "-37.840504599999996",
+        "lng": "144.9558227"
+      },
+      "category": "Health & Medical:Pharmacies"
+    },
+    {
+      "id": "2acee581-778f-4d1e-acf6-d7e352db548b",
+      "merchant": "Woolworths",
+      "description": "WOOLWORTHS 1416 DOUBLE BAY",
+      "amount": 131.8,
+      "running_balance": 1555.74,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-18",
+      "effective_date": "2017-08-19",
+      "location": {
+        "lat": "-33.877596",
+        "lng": "151.244734"
+      },
+      "category": "Food & Drink:Groceries"
+    },
+    {
+      "id": "83b3e5cc-9969-4ba2-8524-14271f42990e",
+      "merchant": "Woolworths",
+      "description": "WOOLWORTHS 1942 MIRANDA",
+      "amount": 32.02,
+      "running_balance": 1687.54,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-18",
+      "effective_date": "2017-08-19",
+      "location": {
+        "lat": "-34.034719",
+        "lng": "151.100571"
+      },
+      "category": "Food & Drink:Groceries"
+    },
+    {
+      "id": "d1e6df9f-57a0-4f62-9227-4141e0a3cb0a",
+      "merchant": "",
+      "description": "COLES 0840 SYDNEY",
+      "amount": 3,
+      "running_balance": 1719.56,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-18",
+      "effective_date": "2017-08-19",
+      "location": {
+        "lat": "-1.0",
+        "lng": "-1.0"
+      },
+      "category": "Food & Drink:Groceries"
+    },
+    {
+      "id": "d7ce4458-c862-40e7-9a07-13020b9855a3",
+      "merchant": "About Life Natural Market Place",
+      "description": "ABOUT LIFE PTY LTD ROZELLE",
+      "amount": 2.6,
+      "running_balance": 1722.56,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-18",
+      "effective_date": "2017-08-19",
+      "location": {
+        "lat": "-33.861162",
+        "lng": "151.1713175"
+      },
+      "category": "Food & Drink:Groceries"
+    },
+    {
+      "id": "049915e4-4ebf-407f-91c4-9d6c8bfb0d78",
+      "merchant": "",
+      "description": "HAIGH RETAIL PTY LTD SYDNEY",
+      "amount": 8.8,
+      "running_balance": 1725.16,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-18",
+      "effective_date": "2017-08-19",
+      "location": {
+        "lat": "-1.0",
+        "lng": "-1.0"
+      },
+      "category": "Food & Drink:Snacks"
+    },
+    {
+      "id": "a09882db-2331-4254-b8b8-14fa792cd93b",
+      "merchant": "Harbour City Ferries",
+      "description": "HARBOUR CITY FERRIES      SYDNEY",
+      "amount": 43,
+      "running_balance": 1733.96,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-18",
+      "effective_date": "2017-08-19",
+      "location": {
+        "lat": "-1.0",
+        "lng": "-1.0"
+      },
+      "category": "Transportation:Public Transit"
+    },
+    {
+      "id": "7635c6d8-ea01-447b-97f5-c04cf8095c76",
+      "merchant": "Coles",
+      "description": "COLES 0861 BURWOOD",
+      "amount": 75.87,
+      "running_balance": 1776.96,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-18",
+      "effective_date": "2017-08-19",
+      "location": {
+        "lat": "-33.874706",
+        "lng": "151.105048"
+      },
+      "category": "Food & Drink:Groceries"
+    },
+    {
+      "id": "87faeae2-f27e-4111-b624-acd05f3654f9",
+      "merchant": "Harbour City Ferries",
+      "description": "HARBOUR CITY FERRIES      SYDNEY",
+      "amount": 44,
+      "running_balance": 1852.83,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-17",
+      "effective_date": "2017-08-18",
+      "location": {
+        "lat": "-1.0",
+        "lng": "-1.0"
+      },
+      "category": "Transportation:Public Transit"
+    },
+    {
+      "id": "c5093289-02a5-40d8-98d1-4dc622ce7573",
+      "merchant": "",
+      "description": "ALDI                      NTH STRTHFILD",
+      "amount": 28.11,
+      "running_balance": 1896.83,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-17",
+      "effective_date": "2017-08-18",
+      "location": {
+        "lat": "-1.0",
+        "lng": "-1.0"
+      },
+      "category": "Food & Drink:Groceries"
+    },
+    {
+      "id": "be7adc3d-e557-48e5-9173-6a03acd9f71a",
+      "merchant": "",
+      "description": "VESSEL                    SYDNEY",
+      "amount": 12,
+      "running_balance": 1924.94,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-17",
+      "effective_date": "2017-08-18",
+      "location": {
+        "lat": "-33.866338",
+        "lng": "151.202395"
+      },
+      "category": "Food & Drink:Restaurants"
+    },
+    {
+      "id": "7d81cc9b-ecd4-40c5-a7f0-fc02f3cb2fe6",
+      "merchant": "Moree Meats",
+      "description": "MOREE MEAT PROCESS        NORTH STRATHF",
+      "amount": 35.2,
+      "running_balance": 1936.94,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-17",
+      "effective_date": "2017-08-18",
+      "location": {
+        "lat": "-33.8634359",
+        "lng": "151.0881623"
+      },
+      "category": "Food & Drink:Other Food Expenses"
+    },
+    {
+      "id": "ebd57227-2546-412c-a8c2-1cb7b1db00bb",
+      "merchant": "Bunnings",
+      "description": "BUNNINGS 757000 CHATSWOOD",
+      "amount": 8.89,
+      "running_balance": 1972.14,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-17",
+      "effective_date": "2017-08-18",
+      "location": {
+        "lat": "-33.785668",
+        "lng": "151.199046"
+      },
+      "category": "Home:Other Home Expenses"
+    },
+    {
+      "id": "ba43ec46-cb1d-4a1d-b693-f75a7b8d21b5",
+      "merchant": "",
+      "description": "IRONGRILL SYDNEY",
+      "amount": 10,
+      "running_balance": 1981.03,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-17",
+      "effective_date": "2017-08-18",
+      "location": {
+        "lat": "-27.03121",
+        "lng": "134.17314"
+      },
+      "category": "Food & Drink:Other Food Expenses"
+    },
+    {
+      "id": "fcd65c44-43d9-4251-98bb-948f2f7fe146",
+      "merchant": "Stix Catering",
+      "description": "Stix Catering Pty Ltd Sydney",
+      "amount": 4,
+      "running_balance": 1991.03,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-17",
+      "effective_date": "2017-08-18",
+      "location": {
+        "lat": "-33.865974",
+        "lng": "151.202356"
+      },
+      "category": "Food & Drink:Other Food Expenses"
+    },
+    {
+      "id": "80d6d8a8-610b-425b-8a7c-6867893979fc",
+      "merchant": "",
+      "description": "EAT NOW SERVICES PL MULGRAVE",
+      "amount": 34.8,
+      "running_balance": 1995.03,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-16",
+      "effective_date": "2017-08-17",
+      "location": {
+        "lat": "-1.0",
+        "lng": "-1.0"
+      },
+      "category": "Food & Drink:Restaurants"
+    },
+    {
+      "id": "81b08285-b4f5-4aed-983b-2f23c9ace641",
+      "merchant": "GPO Grand Restaurants & Bars | Sydney",
+      "description": "GPO RESTAURANT AND B SYDNEY",
+      "amount": 3.8,
+      "running_balance": 2029.83,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-16",
+      "effective_date": "2017-08-17",
+      "location": {
+        "lat": "-33.867685",
+        "lng": "151.20770299999998"
+      },
+      "category": "Food & Drink:Restaurants"
+    },
+    {
+      "id": "2a32aeea-73f8-4e34-98fe-8adbdb9be331",
+      "merchant": "",
+      "description": "IRONGRILL SYDNEY",
+      "amount": 13,
+      "running_balance": 2033.63,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-16",
+      "effective_date": "2017-08-17",
+      "location": {
+        "lat": "-27.03121",
+        "lng": "134.17314"
+      },
+      "category": "Food & Drink:Other Food Expenses"
+    },
+    {
+      "id": "f40c49de-bc09-4315-923a-9b8910fd989a",
+      "merchant": "Vessel Italian & Bar",
+      "description": "VESSEL SYDNEY",
+      "amount": 9.5,
+      "running_balance": 2046.63,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-16",
+      "effective_date": "2017-08-17",
+      "location": {
+        "lat": "-33.865966",
+        "lng": "151.200130"
+      },
+      "category": "Food & Drink:Restaurants"
+    },
+    {
+      "id": "59738a6c-db05-49f1-8cb8-e16263b5a411",
+      "merchant": "Subway Restaurant",
+      "description": "SUBWAY KING STREET        SYDNEY",
+      "amount": 9.95,
+      "running_balance": 2056.13,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-16",
+      "effective_date": "2017-08-17",
+      "location": {
+        "lat": "-33.8686523",
+        "lng": "151.20540699999998"
+      },
+      "category": "Food & Drink:Fast Food"
+    },
+    {
+      "id": "78670096-f8db-4a4e-b21d-310f846ec793",
+      "merchant": "",
+      "description": "HAIGH RETAIL PTY LTD SYDNEY",
+      "amount": 8.8,
+      "running_balance": 2066.08,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-15",
+      "effective_date": "2017-08-16",
+      "location": {
+        "lat": "-1.0",
+        "lng": "-1.0"
+      },
+      "category": "Food & Drink:Snacks"
+    },
+    {
+      "id": "df92475d-e1ce-4bbe-8d65-1540915b698b",
+      "merchant": "",
+      "description": "IRONGRILL SYDNEY",
+      "amount": 12,
+      "running_balance": 2074.88,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-15",
+      "effective_date": "2017-08-16",
+      "location": {
+        "lat": "-27.03121",
+        "lng": "134.17314"
+      },
+      "category": "Food & Drink:Other Food Expenses"
+    },
+    {
+      "id": "31aeb747-f278-4110-bd22-9c4c54e3b086",
+      "merchant": "Vessel Italian & Bar",
+      "description": "VESSEL SYDNEY",
+      "amount": 9.5,
+      "running_balance": 2086.88,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-15",
+      "effective_date": "2017-08-16",
+      "location": {
+        "lat": "-33.865966",
+        "lng": "151.200130"
+      },
+      "category": "Food & Drink:Restaurants"
+    },
+    {
+      "id": "41372b41-4bfb-4fa8-bd37-6e5e6531a278",
+      "merchant": "GPO Grand Restaurants & Bars | Sydney",
+      "description": "GPO RESTAURANT AND B SYDNEY",
+      "amount": 3.8,
+      "running_balance": 2096.38,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-15",
+      "effective_date": "2017-08-16",
+      "location": {
+        "lat": "-33.867685",
+        "lng": "151.20770299999998"
+      },
+      "category": "Food & Drink:Restaurants"
+    },
+    {
+      "id": "1528c772-792c-4abc-b858-ad051f44aa53",
+      "merchant": "",
+      "description": "COLES 0840 SYDNEY",
+      "amount": 3,
+      "running_balance": 2100.18,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-15",
+      "effective_date": "2017-08-16",
+      "location": {
+        "lat": "-1.0",
+        "lng": "-1.0"
+      },
+      "category": "Food & Drink:Groceries"
+    },
+    {
+      "id": "e34dfa3c-123c-4935-b29a-05f5c09617fb",
+      "merchant": "About Life Natural Market Place",
+      "description": "ABOUT LIFE PTY LTD ROZELLE",
+      "amount": 2.6,
+      "running_balance": 2103.18,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-15",
+      "effective_date": "2017-08-16",
+      "location": {
+        "lat": "-33.861162",
+        "lng": "151.1713175"
+      },
+      "category": "Food & Drink:Groceries"
+    },
+    {
+      "id": "00d2a34f-ba42-4930-a6d9-17aa9d840326",
+      "merchant": "Woolworths",
+      "description": "WOOLWORTHS 1942 MIRANDA",
+      "amount": 68.46,
+      "running_balance": 2105.78,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-14",
+      "effective_date": "2017-08-15",
+      "location": {
+        "lat": "-34.034719",
+        "lng": "151.100571"
+      },
+      "category": "Food & Drink:Groceries"
+    },
+    {
+      "id": "830e9dbb-7e2b-4316-a4ab-9d4d7e2b7afa",
+      "merchant": "Subway Restaurant",
+      "description": "SUBWAY KING STREET        SYDNEY",
+      "amount": 10.2,
+      "running_balance": 2174.24,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-14",
+      "effective_date": "2017-08-15",
+      "location": {
+        "lat": "-33.8686523",
+        "lng": "151.20540699999998"
+      },
+      "category": "Food & Drink:Fast Food"
+    },
+    {
+      "id": "38785804-e6c7-4d49-a7bf-843b197ab573",
+      "merchant": "",
+      "description": "BASKET GROUP PTY LTD SYDNEY",
+      "amount": 2.99,
+      "running_balance": 2184.44,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-14",
+      "effective_date": "2017-08-15",
+      "location": {
+        "lat": "-1.0",
+        "lng": "-1.0"
+      },
+      "category": "Food & Drink:Groceries"
+    },
+    {
+      "id": "bb99e96a-66cb-4e7e-b9e5-f5f1bf58fcec",
+      "merchant": "Stix Catering",
+      "description": "Stix Catering Pty Ltd Sydney",
+      "amount": 4,
+      "running_balance": 2187.43,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-14",
+      "effective_date": "2017-08-15",
+      "location": {
+        "lat": "-33.865974",
+        "lng": "151.202356"
+      },
+      "category": "Food & Drink:Other Food Expenses"
+    },
+    {
+      "id": "12209f35-23f4-408a-8ee9-389531e62120",
+      "merchant": "About Life Natural Market Place",
+      "description": "ABOUT LIFE PTY LTD ROZELLE",
+      "amount": 6.9,
+      "running_balance": 2191.43,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-14",
+      "effective_date": "2017-08-15",
+      "location": {
+        "lat": "-33.861162",
+        "lng": "151.1713175"
+      },
+      "category": "Food & Drink:Groceries"
+    },
+    {
+      "id": "49836545-b990-4462-a606-906fd2a8b97f",
+      "merchant": "BlueFit Health Club",
+      "description": "BLUEFIT PTY LTD LANE COVE",
+      "amount": 71,
+      "running_balance": 2198.33,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-14",
+      "effective_date": "2017-08-15",
+      "location": {
+        "lat": "-33.81528",
+        "lng": "151.17366"
+      },
+      "category": "Sports & Fitness:Memberships"
+    },
+    {
+      "id": "a791abbc-7daa-47fd-9c39-ef1f7593322e",
+      "merchant": "Vessel Italian & Bar",
+      "description": "VESSEL SYDNEY",
+      "amount": 7,
+      "running_balance": 2269.33,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-14",
+      "effective_date": "2017-08-15",
+      "location": {
+        "lat": "-33.865966",
+        "lng": "151.200130"
+      },
+      "category": "Food & Drink:Restaurants"
+    },
+    {
+      "id": "eda630e2-1879-4a8d-a250-0edc71b4c816",
+      "merchant": "Harbour City Ferries",
+      "description": "HARBOUR CITY FERRIES      SYDNEY",
+      "amount": 44.8,
+      "running_balance": 2276.33,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-14",
+      "effective_date": "2017-08-15",
+      "location": {
+        "lat": "-1.0",
+        "lng": "-1.0"
+      },
+      "category": "Transportation:Public Transit"
+    },
+    {
+      "id": "3ad9c0df-8335-4764-84be-bfe3972a5507",
+      "merchant": "",
+      "description": "COLES 0840 SYDNEY",
+      "amount": 43,
+      "running_balance": 2321.13,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-14",
+      "effective_date": "2017-08-15",
+      "location": {
+        "lat": "-1.0",
+        "lng": "-1.0"
+      },
+      "category": "Food & Drink:Groceries"
+    },
+    {
+      "id": "552c3f82-bfcc-4219-974a-23b8116d86c5",
+      "merchant": "Stix Catering",
+      "description": "Stix Catering Pty Ltd Sydney",
+      "amount": 4,
+      "running_balance": 2364.13,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-13",
+      "effective_date": "2017-08-14",
+      "location": {
+        "lat": "-33.865974",
+        "lng": "151.202356"
+      },
+      "category": "Food & Drink:Other Food Expenses"
+    },
+    {
+      "id": "1a50fdee-fe7b-43c1-bf24-814591ea3fb9",
+      "merchant": "",
+      "description": "CUTELIN P/L MELBOURNE",
+      "amount": 22.75,
+      "running_balance": 2368.13,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-13",
+      "effective_date": "2017-08-14",
+      "location": {
+        "lat": "-1.0",
+        "lng": "-1.0"
+      },
+      "category": "Health & Medical:Other Health Expenses"
+    },
+    {
+      "id": "ad3a27b1-0762-41be-ad86-695f0d1622bd",
+      "merchant": "Vessel Italian & Bar",
+      "description": "VESSEL SYDNEY",
+      "amount": 7,
+      "running_balance": 2390.88,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-12",
+      "effective_date": "2017-08-13",
+      "location": {
+        "lat": "-33.865966",
+        "lng": "151.200130"
+      },
+      "category": "Food & Drink:Restaurants"
+    },
+    {
+      "id": "c7ab27aa-12f2-4f21-9cdc-7385e1b2504a",
+      "merchant": "Stix Catering",
+      "description": "Stix Catering Pty Ltd Sydney",
+      "amount": 3.5,
+      "running_balance": 2397.88,
+      "currency_code": "AUD",
+      "cr_dr_flag": "CR",
+      "transaction_date": "2017-08-12",
+      "effective_date": "2017-08-13",
+      "location": {
+        "lat": "-33.865974",
+        "lng": "151.202356"
+      },
+      "category": "Food & Drink:Other Food Expenses"
+    },
+    {
+      "id": "46867325-e526-479a-b914-f8bc68710e20",
+      "merchant": "Harbour City Ferries",
+      "description": "HARBOUR CITY FERRIES      SYDNEY",
+      "amount": 43,
+      "running_balance": 2394.38,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-12",
+      "effective_date": "2017-08-13",
+      "location": {
+        "lat": "-1.0",
+        "lng": "-1.0"
+      },
+      "category": "Transportation:Public Transit"
+    },
+    {
+      "id": "8dd741b2-9a54-4cdb-aa07-cf9a688c94d5",
+      "merchant": "",
+      "description": "IRONGRILL SYDNEY",
+      "amount": 13,
+      "running_balance": 2437.38,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-12",
+      "effective_date": "2017-08-13",
+      "location": {
+        "lat": "-27.03121",
+        "lng": "134.17314"
+      },
+      "category": "Food & Drink:Other Food Expenses"
+    },
+    {
+      "id": "57848d4c-bfb7-4c08-a7bc-801e946510f7",
+      "merchant": "GPO Grand Restaurants & Bars | Sydney",
+      "description": "GPO RESTAURANT AND B SYDNEY",
+      "amount": 19.9,
+      "running_balance": 2450.38,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-12",
+      "effective_date": "2017-08-13",
+      "location": {
+        "lat": "-33.867685",
+        "lng": "151.20770299999998"
+      },
+      "category": "Food & Drink:Restaurants"
+    },
+    {
+      "id": "5b6933b1-7467-47d0-b230-c1e23421eeb1",
+      "merchant": "",
+      "description": "HAIGH RETAIL PTY LTD SYDNEY",
+      "amount": 8.8,
+      "running_balance": 2470.28,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-12",
+      "effective_date": "2017-08-13",
+      "location": {
+        "lat": "-1.0",
+        "lng": "-1.0"
+      },
+      "category": "Food & Drink:Snacks"
+    },
+    {
+      "id": "cec34dff-92df-4d69-91a8-967562cd6184",
+      "merchant": "About Life Natural Market Place",
+      "description": "ABOUT LIFE PTY LTD ROZELLE",
+      "amount": 2.6,
+      "running_balance": 2479.08,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-12",
+      "effective_date": "2017-08-13",
+      "location": {
+        "lat": "-33.861162",
+        "lng": "151.1713175"
+      },
+      "category": "Food & Drink:Groceries"
+    },
+    {
+      "id": "e9bf5fc6-281c-4620-8994-9fb89a1aa35c",
+      "merchant": "",
+      "description": "BASKET GROUP PTY LTD SYDNEY",
+      "amount": 10,
+      "running_balance": 2481.68,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-12",
+      "effective_date": "2017-08-13",
+      "location": {
+        "lat": "-1.0",
+        "lng": "-1.0"
+      },
+      "category": "Food & Drink:Groceries"
+    },
+    {
+      "id": "6ca65bb6-f1c3-424a-a6c4-9511665110ca",
+      "merchant": "",
+      "description": "KRISHNA TRADELINK PTY LTD QUAKERS HILL",
+      "amount": 8.4,
+      "running_balance": 2491.68,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-12",
+      "effective_date": "2017-08-13",
+      "location": {
+        "lat": "-1.0",
+        "lng": "-1.0"
+      },
+      "category": "Food & Drink:Groceries"
+    },
+    {
+      "id": "829f3e5e-dd26-4acd-b133-b7c2d68d494f",
+      "merchant": "Subway Restaurant",
+      "description": "SUBWAY KING STREET        SYDNEY",
+      "amount": 9.95,
+      "running_balance": 2500.08,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-12",
+      "effective_date": "2017-08-13",
+      "location": {
+        "lat": "-33.8686523",
+        "lng": "151.20540699999998"
+      },
+      "category": "Food & Drink:Fast Food"
+    },
+    {
+      "id": "09430b2b-8706-45c7-b150-7cd9d0d2b030",
+      "merchant": "Meat District Co",
+      "description": "MEAT DISTRICT CO SYDNEY",
+      "amount": 25,
+      "running_balance": 2510.03,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-12",
+      "effective_date": "2017-08-13",
+      "location": {
+        "lat": "-33.866090199999995",
+        "lng": "151.2017108"
+      },
+      "category": "Food & Drink:Fast Food"
+    },
+    {
+      "id": "d391305d-581d-44be-a1f0-5326a03d5915",
+      "merchant": "Woolworths",
+      "description": "WOOLWORTHS 1942 MIRANDA",
+      "amount": 32.02,
+      "running_balance": 2535.03,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-12",
+      "effective_date": "2017-08-13",
+      "location": {
+        "lat": "-34.034719",
+        "lng": "151.100571"
+      },
+      "category": "Food & Drink:Groceries"
+    },
+    {
+      "id": "d3638201-bce0-47e9-a3fe-25981df5e585",
+      "merchant": "",
+      "description": "KRISHNA TRADELINK PTY LTD QUAKERS HILL",
+      "amount": 39.99,
+      "running_balance": 2567.05,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-10",
+      "effective_date": "2017-08-11",
+      "location": {
+        "lat": "-1.0",
+        "lng": "-1.0"
+      },
+      "category": "Food & Drink:Groceries"
+    },
+    {
+      "id": "7f41ac22-37d6-4e79-94cb-2c40fbafab2d",
+      "merchant": "Harris Farm Markets",
+      "description": "HFM BROADWAY BROADWAY",
+      "amount": 47.11,
+      "running_balance": 2607.04,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-10",
+      "effective_date": "2017-08-11",
+      "location": {
+        "lat": "-33.883613",
+        "lng": "151.193487"
+      },
+      "category": "Food & Drink:Groceries"
+    },
+    {
+      "id": "671c2b35-ff66-4589-a0c8-9056ff0223eb",
+      "merchant": "Coles",
+      "description": "COLES 0861 BURWOOD",
+      "amount": 147.39,
+      "running_balance": 2654.15,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-10",
+      "effective_date": "2017-08-11",
+      "location": {
+        "lat": "-33.874706",
+        "lng": "151.105048"
+      },
+      "category": "Food & Drink:Groceries"
+    },
+    {
+      "id": "841fb637-cb11-4411-b397-96a6ef8cb76c",
+      "merchant": "Moree Meats",
+      "description": "MOREE MEAT PROCESS        NORTH STRATHF",
+      "amount": 35.2,
+      "running_balance": 2801.54,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-10",
+      "effective_date": "2017-08-11",
+      "location": {
+        "lat": "-33.8634359",
+        "lng": "151.0881623"
+      },
+      "category": "Food & Drink:Other Food Expenses"
+    },
+    {
+      "id": "bf266890-a198-4a74-99f2-23898575f2c6",
+      "merchant": "",
+      "description": "HAIGH RETAIL PTY LTD SYDNEY",
+      "amount": 7.95,
+      "running_balance": 2836.74,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-10",
+      "effective_date": "2017-08-11",
+      "location": {
+        "lat": "-1.0",
+        "lng": "-1.0"
+      },
+      "category": "Food & Drink:Snacks"
+    },
+    {
+      "id": "442777c5-7d2c-44d7-b677-7e3121323ef0",
+      "merchant": "Harbour City Ferries",
+      "description": "HARBOUR CITY FERRIES      SYDNEY",
+      "amount": 44,
+      "running_balance": 2844.69,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-10",
+      "effective_date": "2017-08-11",
+      "location": {
+        "lat": "-1.0",
+        "lng": "-1.0"
+      },
+      "category": "Transportation:Public Transit"
+    },
+    {
+      "id": "efcc6303-e436-4931-a434-28da6aa28a28",
+      "merchant": "Fitness First Sylvania",
+      "description": "FITNESS FIRST SY SYLVANIA",
+      "amount": 8,
+      "running_balance": 2888.69,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-10",
+      "effective_date": "2017-08-11",
+      "location": {
+        "lat": "-34.008137999999995",
+        "lng": "151.1056192"
+      },
+      "category": "Sports & Fitness:Memberships"
+    },
+    {
+      "id": "db576fc2-9090-41d5-83b1-7582d0b1344d",
+      "merchant": "",
+      "description": "VESSEL                    SYDNEY",
+      "amount": 36,
+      "running_balance": 2896.69,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-10",
+      "effective_date": "2017-08-11",
+      "location": {
+        "lat": "-33.866338",
+        "lng": "151.202395"
+      },
+      "category": "Food & Drink:Restaurants"
+    },
+    {
+      "id": "79c858ec-5885-45c5-b828-3970fab3cb94",
+      "merchant": "Craven's Pharmacy",
+      "description": "CRAVENS PHARMACY ALBERT PARK",
+      "amount": 9.95,
+      "running_balance": 2932.69,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-10",
+      "effective_date": "2017-08-11",
+      "location": {
+        "lat": "-37.840504599999996",
+        "lng": "144.9558227"
+      },
+      "category": "Health & Medical:Pharmacies"
+    },
+    {
+      "id": "06460cab-82f7-4871-848a-677c03d4e532",
+      "merchant": "",
+      "description": "PROPERTY 3 PTY LTD BARANGAROO",
+      "amount": 28.28,
+      "running_balance": 2942.64,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-10",
+      "effective_date": "2017-08-11",
+      "location": {
+        "lat": "-1.0",
+        "lng": "-1.0"
+      },
+      "category": "Food & Drink:Alcohol & Bars"
+    },
+    {
+      "id": "b66c9746-0c7b-4e08-bc8e-deefbadd664a",
+      "merchant": "",
+      "description": "IRONGRILL SYDNEY",
+      "amount": 10,
+      "running_balance": 2970.92,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-10",
+      "effective_date": "2017-08-11",
+      "location": {
+        "lat": "-27.03121",
+        "lng": "134.17314"
+      },
+      "category": "Food & Drink:Other Food Expenses"
+    },
+    {
+      "id": "ec086ab5-d041-425c-801d-5f41637725b8",
+      "merchant": "Bunnings",
+      "description": "BUNNINGS 757000 CHATSWOOD",
+      "amount": 8.89,
+      "running_balance": 2980.92,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-10",
+      "effective_date": "2017-08-11",
+      "location": {
+        "lat": "-33.785668",
+        "lng": "151.199046"
+      },
+      "category": "Home:Other Home Expenses"
+    },
+    {
+      "id": "b2d4747d-32bb-492f-965a-71d8d6605a7e",
+      "merchant": "Woolworths",
+      "description": "WOOLWORTHS 1416 DOUBLE BAY",
+      "amount": 212.3,
+      "running_balance": 2989.81,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-10",
+      "effective_date": "2017-08-11",
+      "location": {
+        "lat": "-33.877596",
+        "lng": "151.244734"
+      },
+      "category": "Food & Drink:Groceries"
+    },
+    {
+      "id": "eba45111-4ea8-4cb9-a531-e099dfa7a327",
+      "merchant": "",
+      "description": "CUTELIN P/L MELBOURNE",
+      "amount": 35,
+      "running_balance": 3202.11,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-10",
+      "effective_date": "2017-08-11",
+      "location": {
+        "lat": "-1.0",
+        "lng": "-1.0"
+      },
+      "category": "Health & Medical:Other Health Expenses"
+    },
+    {
+      "id": "f9d8dd9e-6001-4b01-af8f-0fcd25fc60c3",
+      "merchant": "GPO Grand Restaurants & Bars | Sydney",
+      "description": "GPO RESTAURANT AND B SYDNEY",
+      "amount": 19.9,
+      "running_balance": 3237.11,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-10",
+      "effective_date": "2017-08-11",
+      "location": {
+        "lat": "-33.867685",
+        "lng": "151.20770299999998"
+      },
+      "category": "Food & Drink:Restaurants"
+    },
+    {
+      "id": "e3306a45-cc81-4189-8e5b-d802f49768c8",
+      "merchant": "",
+      "description": "BIG W 0182 HURSTVILLE",
+      "amount": 8,
+      "running_balance": 3257.01,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-10",
+      "effective_date": "2017-08-11",
+      "location": {
+        "lat": "-1.0",
+        "lng": "-1.0"
+      },
+      "category": "Personal:Other Personal Expenses"
+    },
+    {
+      "id": "8506c48a-fab7-4324-91b4-dfcfdb5e63ee",
+      "merchant": "Stix Catering",
+      "description": "Stix Catering Pty Ltd Sydney",
+      "amount": 3.5,
+      "running_balance": 3265.01,
+      "currency_code": "AUD",
+      "cr_dr_flag": "CR",
+      "transaction_date": "2017-08-09",
+      "effective_date": "2017-08-10",
+      "location": {
+        "lat": "-33.865974",
+        "lng": "151.202356"
+      },
+      "category": "Food & Drink:Other Food Expenses"
+    },
+    {
+      "id": "6fd50e3e-5445-43df-a2e5-fd6f5bcdf36e",
+      "merchant": "Stix Catering",
+      "description": "Stix Catering Pty ltd    Sydney",
+      "amount": 10,
+      "running_balance": 3261.51,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-09",
+      "effective_date": "2017-08-10",
+      "location": {
+        "lat": "-33.865974",
+        "lng": "151.202356"
+      },
+      "category": "Food & Drink:Restaurants"
+    },
+    {
+      "id": "6690d85f-675d-44a8-a3a3-3e6544fbb5db",
+      "merchant": "Shirt Bar",
+      "description": "SHIRT BAR SYDNEY",
+      "amount": 6.6,
+      "running_balance": 3271.51,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-09",
+      "effective_date": "2017-08-10",
+      "location": {
+        "lat": "-33.86662",
+        "lng": "151.203994"
+      },
+      "category": "Personal:Clothing"
+    },
+    {
+      "id": "0222f355-3659-445d-a7d3-73147b9e995f",
+      "merchant": "Woolworths",
+      "description": "WOOLWORTHS 1942 MIRANDA",
+      "amount": 68.46,
+      "running_balance": 3278.11,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-09",
+      "effective_date": "2017-08-10",
+      "location": {
+        "lat": "-34.034719",
+        "lng": "151.100571"
+      },
+      "category": "Food & Drink:Groceries"
+    },
+    {
+      "id": "667a9d40-fcc9-4fda-b8d6-2481f076b6fa",
+      "merchant": "",
+      "description": "COLES 0840 SYDNEY",
+      "amount": 3,
+      "running_balance": 3346.57,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-09",
+      "effective_date": "2017-08-10",
+      "location": {
+        "lat": "-1.0",
+        "lng": "-1.0"
+      },
+      "category": "Food & Drink:Groceries"
+    },
+    {
+      "id": "13d922a7-06a1-4a9b-b03c-54f01a286220",
+      "merchant": "",
+      "description": "IRONGRILL SYDNEY",
+      "amount": 12,
+      "running_balance": 3349.57,
+      "currency_code": "AUD",
+      "cr_dr_flag": "DR",
+      "transaction_date": "2017-08-09",
+      "effective_date": "2017-08-10",
+      "location": {
+        "lat": "-27.03121",
+        "lng": "134.17314"
+      },
+      "category": "Food & Drink:Other Food Expenses"
+    }
+  ]
+}
