@@ -16,10 +16,10 @@ public class OAuthController {
 
     private final OAuthService oAuthService;
 
-    @RequestMapping(value = "/token",method= RequestMethod.GET)
+    @RequestMapping(value = "/token", method = RequestMethod.GET)
     @ResponseBody
     public String getToken(@RequestParam(value = "accessCode", defaultValue = "") String accessCode) {
-        ResponseEntity<OAuthToken> accessCodeResponse =  oAuthService.getToken(accessCode);
+        ResponseEntity<OAuthToken> accessCodeResponse = oAuthService.getToken(accessCode);
         return accessCodeResponse.getBody().getAccessToken();
     }
 }
