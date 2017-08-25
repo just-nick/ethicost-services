@@ -1,4 +1,4 @@
-package com.ethicost.model;
+package com.ethicost.oauth;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Getter;
