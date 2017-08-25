@@ -1,6 +1,5 @@
 package com.ethicost.transaction;
 
-import com.ethicost.merchant.Merchant;
 import com.ethicost.merchant.MerchantRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
