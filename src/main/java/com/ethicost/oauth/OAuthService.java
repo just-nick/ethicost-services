@@ -1,6 +1,5 @@
-package com.ethicost.service;
+package com.ethicost.oauth;
 
-import com.ethicost.model.OAuthToken;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.env.Environment;

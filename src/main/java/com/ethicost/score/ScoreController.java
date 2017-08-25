@@ -16,7 +16,6 @@ public class ScoreController {
         Random rand = new Random();
         ScoreResponse score = new ScoreResponse();
         score.setValue(rand.nextInt(100));
-
         return score;
     }
 }
