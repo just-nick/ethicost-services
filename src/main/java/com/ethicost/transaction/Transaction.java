@@ -8,6 +8,8 @@ import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
 import org.springframework.format.annotation.DateTimeFormat;
 
+import javax.persistence.*;
+import java.math.BigDecimal;
 import java.util.Date;
 
 import javax.persistence.Entity;
@@ -30,11 +32,13 @@ public class Transaction {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
 
-    private int userId;
+    private String userId;
+
+    private String accountId;
 
     private String transactionId;
 
-    private int amount;
+    private BigDecimal amount;
 
     private String description;
 
@@ -52,7 +56,7 @@ public class Transaction {
 
     private String category;
 
-    private int runningBalance;
+    private BigDecimal runningBalance;
 
     private String currencyCode;
 
