@@ -1,5 +1,6 @@
 package com.ethicost.transaction;
 
+import com.ethicost.merchant.Merchant;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -32,7 +33,7 @@ public class Transaction {
 
     @ManyToOne
     @JoinColumn(name = "description")
-    private String description;
+    private Merchant description;
 
     @Temporal(TemporalType.DATE)
     @DateTimeFormat(pattern = "yyyy-MM-dd")

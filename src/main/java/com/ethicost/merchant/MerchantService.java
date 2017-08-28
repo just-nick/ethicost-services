@@ -4,6 +4,8 @@ import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 /**
  * Created by vrum on 16/8/17.
  */
@@ -21,5 +23,9 @@ public class MerchantService {
 
     public Iterable<Merchant> findAllMerchants() {
         return merchantRepository.findAll();
+    }
+
+    public List<Merchant> getMerchantTransactionsFor(List<String> accounts) {
+        return merchantRepository.findMerchantsByAccountList(accounts);
     }
 }

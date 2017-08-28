@@ -1,10 +1,10 @@
 package com.ethicost.merchant;
 
+import com.ethicost.transaction.Transaction;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import org.hibernate.Transaction;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
 
@@ -47,4 +47,6 @@ public class Merchant {
     @UpdateTimestamp
     @Temporal(TemporalType.TIMESTAMP)
     private Date lastUpdated;
+
+
 }
