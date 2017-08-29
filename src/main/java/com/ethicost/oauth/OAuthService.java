@@ -19,6 +19,7 @@ public class OAuthService {
     private static final String CLIENT_ID = "client_id";
     private static final String CLIENT_SECRET = "client_secret";
     private static final String GRANT_TYPE = "grant_type";
+    private static final String REFRESH_TOKEN = "refresh_token";
     private static final String CODE = "code";
 
     private final Environment environment;
@@ -52,4 +53,32 @@ public class OAuthService {
 
         return restTemplate.postForEntity(apiPath, entity, OAuthToken.class);
     }
+
+
+    public ResponseEntity<OAuthToken> getTokenByRefreshToken(String refreshToken) {
+
+        String baseApiUrl = environment.getProperty("macquarie.apiUrl");
+        String oauthTokenPath = environment.getProperty("macquarie.oauth.tokenPath");
+        String oauthClientId = environment.getProperty("macquarie.oauth.clientId");
+        String oauthClientSecret = environment.getProperty("macquarie.oauth.clientSecret");
+        String oauthGrantType = environment.getProperty("macquarie.oauth.grantType");
+
+        RestTemplate restTemplate = new RestTemplate();
+        String apiPath = baseApiUrl + oauthTokenPath;
+
+        HttpHeaders headers = new HttpHeaders();
+        headers.setContentType(MediaType.APPLICATION_FORM_URLENCODED);
+        headers.set(CLIENT_ID, oauthClientId);
+        headers.set(CLIENT_SECRET, oauthClientSecret);
+
+        MultiValueMap<String, String> oauthInputData = new LinkedMultiValueMap<>();
+        oauthInputData.add(GRANT_TYPE, "refresh_token");
+        oauthInputData.add(REFRESH_TOKEN, refreshToken);
+
+        HttpEntity<MultiValueMap<String, String>> entity = new HttpEntity<>(oauthInputData, headers);
+
+        return restTemplate.postForEntity(apiPath, entity, OAuthToken.class);
+    }
+
+
 }
