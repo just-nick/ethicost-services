@@ -31,9 +31,9 @@ public class Transaction {
 
     private BigDecimal amount;
 
-    @ManyToOne
-    @JoinColumn(name = "description")
-    private Merchant description;
+//    @ManyToOne
+//    @JoinColumn(name = "description")
+    private String description;
 
     @Temporal(TemporalType.DATE)
     @DateTimeFormat(pattern = "yyyy-MM-dd")
