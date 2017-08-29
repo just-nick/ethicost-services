@@ -4,7 +4,9 @@ import com.ethicost.account.Account;
 import com.ethicost.account.AccountService;
 import com.ethicost.account.MacAccountResponse;
 import com.ethicost.merchant.MerchantService;
+import com.ethicost.merchant.MerchantTransactionResponse;
 import lombok.AllArgsConstructor;
+import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -14,6 +16,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
@@ -23,25 +26,44 @@ import java.util.stream.Collectors;
 @AllArgsConstructor(onConstructor = @__({@Autowired}))
 public class UserTransactionController {
 
-        private MerchantService merchantService;
+        private TransactionService transactionService;
 
         private AccountService accountService;
 
         @GetMapping("/user-transactions")
         @ResponseBody
-        public UserTransactionsResponse getTransactions(@RequestHeader(value="Authorization") String authorizationHeader) {
-            ResponseEntity<MacAccountResponse> accounts = accountService.getAccounts(authorizationHeader);
-
-            MacAccountResponse accountsList = accounts.getBody();
-
-            List<String> accountIds = accountsList.getAccounts().stream()
-                .map(Account::getAccount_id)
-                .collect(Collectors.toList());
+        public List<MerchantTransactionResponse> getTransactions(@RequestHeader(value="Authorization") String authorizationHeader) {
+            List<String> accountIds = accountService.getAccounts(authorizationHeader);
 
             // get all accounts
             // create a list of account ID's
-            merchantService.getMerchantTransactionsFor(accountIds);
-            return null;
+            Map<String, List<TransactionResponse>> stringListMap = new HashMap<>();
+            transactionService.findAllTransactions(accountIds).stream()
+                .map((transaction) -> {
+                    TransactionResponse transactionResponse = new TransactionResponse();
+                    BeanUtils.copyProperties(transaction, transactionResponse);
+                    return transactionResponse;
+                })
+                .forEach((transactionResponse) -> {
+                    if(!stringListMap.keySet().contains(transactionResponse.getMerchant())) {
+                        stringListMap.put(transactionResponse.getMerchant(), new ArrayList<>());
+                    }
+
+                    stringListMap.get(transactionResponse.getMerchant()).add(transactionResponse);
+                });
+
+
+            List<MerchantTransactionResponse> response = stringListMap.keySet().stream()
+                .map((key)->{
+                    List<TransactionResponse> transactions = stringListMap.get(key);
+                    return MerchantTransactionResponse.builder()
+                        .category(transactions.get(0).getCategory())
+                        .transactionResponses(transactions)
+                        .merchantName(key)
+                        .build();
+                })
+                .collect(Collectors.toList());
+            return response;
         }
 
 }

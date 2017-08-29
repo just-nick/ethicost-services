@@ -1,6 +1,8 @@
 package com.ethicost.account;
 
 import com.ethicost.oauth.OAuthToken;
+import com.ethicost.transaction.Transaction;
+import com.ethicost.transaction.TransactionRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.web.client.RestTemplateBuilder;
@@ -17,6 +19,7 @@ import org.springframework.web.client.RestTemplate;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 @Slf4j
 @Service
@@ -35,7 +38,10 @@ public class AccountService {
         this.environment = environment;
     }
 
-    public ResponseEntity<MacAccountResponse> getAccounts(String authorizationHeader) {
+    @Autowired
+    private TransactionRepository transactionRepository;
+
+    public List<String> getAccounts(String authorizationHeader) {
 
         String baseApiUrl = environment.getProperty("macquarie.apiUrl");
         String clientId = environment.getProperty("macquarie.oauth.clientId");
@@ -47,8 +53,35 @@ public class AccountService {
         //headers.setContentType(MediaType.APPLICATION_FORM_URLENCODED);
         headers.set(CLIENT_ID, clientId);
         headers.set(AUTHORIZATION, authorizationHeader);
+
         HttpEntity<String> entity = new HttpEntity<String>("", headers);
-        ResponseEntity<MacAccountResponse> accounts = restTemplate.exchange(apiPath, HttpMethod.GET, entity, MacAccountResponse.class);
-        return accounts;
+        List<String> accountIds = restTemplate.exchange(apiPath, HttpMethod.GET, entity, MacAccountResponse.class)
+            .getBody().getAccounts().stream()
+                .map(Account::getAccount_id)
+                .collect(Collectors.toList());
+
+        accountIds.forEach((accountId) -> {
+            HttpEntity<String> entity2 = new HttpEntity<String>("", headers);
+            List<Transaction> transactions = restTemplate.exchange(baseApiUrl + "/accounts/" + accountId + "/transactions", HttpMethod.GET, entity2, MacTransactionResponse.class)
+                .getBody().getTransactions().stream()
+                .map((macTransaction -> Transaction.builder()
+                    .accountId(accountId)
+                    .amount(macTransaction.getAmount())
+                    .category(macTransaction.getCategory())
+                    //.createdAt(macTransaction.getTransaction_date())
+                    .currencyCode(macTransaction.getCurrency_code())
+                    .debit(macTransaction.getCr_dr_flag() == "DR")
+                    .description(macTransaction.getDescription())
+                    //.effectiveDate()
+                    //.lastUpdated()
+                    .merchant(macTransaction.getMerchant())
+                    .transactionId(macTransaction.getId())
+                    .build()))
+                .collect(Collectors.toList());
+
+            transactionRepository.save(transactions);
+        });
+
+        return accountIds;
     }
 }

@@ -1,6 +1,8 @@
 package com.ethicost.merchant;
 
 import com.ethicost.transaction.TransactionResponse;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -12,7 +14,9 @@ import java.util.List;
 @Getter
 @Setter
 @EqualsAndHashCode
+@Builder
 @NoArgsConstructor
+@AllArgsConstructor
 public class MerchantTransactionResponse {
 
     private int id;

@@ -1,6 +1,8 @@
 package com.ethicost.transaction;
 
 import com.ethicost.merchant.Merchant;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -19,6 +21,8 @@ import java.util.Date;
 @Setter
 @EqualsAndHashCode
 @NoArgsConstructor
+@AllArgsConstructor
+@Builder
 public class Transaction {
 
     @Id
