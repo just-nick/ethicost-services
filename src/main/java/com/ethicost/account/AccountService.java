@@ -14,6 +14,7 @@ import org.springframework.http.HttpMethod;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 import org.springframework.util.LinkedMultiValueMap;
 import org.springframework.util.MultiValueMap;
 import org.springframework.web.client.RestTemplate;
@@ -45,6 +46,7 @@ public class AccountService {
     @Autowired
     private OAuthService oAuthService;
 
+    @Transactional
     public List<String> getAccounts(String authorizationHeader) {
 
         String baseApiUrl = environment.getProperty("macquarie.apiUrl");
@@ -70,9 +72,12 @@ public class AccountService {
                 .map(Account::getAccount_id)
                 .collect(Collectors.toList());
 
+        transactionRepository.deleteAllByAccountIdIn(accountIds);
+        List<Transaction> transactions = new ArrayList<>();
+
         accountIds.forEach((accountId) -> {
             HttpEntity<String> entity2 = new HttpEntity<String>("", headers);
-            List<Transaction> transactions = restTemplate.exchange(baseApiUrl + "/accounts/" + accountId + "/transactions", HttpMethod.GET, entity2, MacTransactionResponse.class)
+            transactions.addAll(restTemplate.exchange(baseApiUrl + "/accounts/" + accountId + "/transactions", HttpMethod.GET, entity2, MacTransactionResponse.class)
                 .getBody().getTransactions().stream()
                 .map((macTransaction -> Transaction.builder()
                     .accountId(accountId)
@@ -87,11 +92,11 @@ public class AccountService {
                     .merchant(macTransaction.getMerchant())
                     .transactionId(macTransaction.getId())
                     .build()))
-                .collect(Collectors.toList());
+                .collect(Collectors.toList()));
 
-            transactionRepository.save(transactions);
         });
 
+        transactionRepository.save(transactions);
         return accountIds;
     }
 }

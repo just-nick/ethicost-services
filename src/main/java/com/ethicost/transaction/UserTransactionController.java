@@ -19,6 +19,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Random;
 import java.util.stream.Collectors;
 
 @RestController
@@ -53,6 +54,8 @@ public class UserTransactionController {
                 });
 
 
+            Random rand = new Random();
+
             List<MerchantTransactionResponse> response = stringListMap.keySet().stream()
                 .map((key)->{
                     List<TransactionResponse> transactions = stringListMap.get(key);
@@ -60,6 +63,7 @@ public class UserTransactionController {
                         .category(transactions.get(0).getCategory())
                         .transactionResponses(transactions)
                         .merchantName(key)
+                        .rating(rand.nextInt(100))
                         .build();
                 })
                 .collect(Collectors.toList());
