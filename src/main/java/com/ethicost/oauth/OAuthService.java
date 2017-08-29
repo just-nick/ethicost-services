@@ -12,6 +12,9 @@ import org.springframework.util.LinkedMultiValueMap;
 import org.springframework.util.MultiValueMap;
 import org.springframework.web.client.RestTemplate;
 
+import java.util.HashMap;
+import java.util.Map;
+
 @Slf4j
 @Service
 public class OAuthService {
@@ -24,6 +27,10 @@ public class OAuthService {
 
     private final Environment environment;
 
+    private static Map<String, String> tokenMap = new HashMap<>();
+
+
+    @Slf4j
     @Autowired
     public OAuthService(Environment environment) {
         this.environment = environment;
@@ -36,6 +43,9 @@ public class OAuthService {
         String oauthClientId = environment.getProperty("macquarie.oauth.clientId");
         String oauthClientSecret = environment.getProperty("macquarie.oauth.clientSecret");
         String oauthGrantType = environment.getProperty("macquarie.oauth.grantType");
+
+        log.info("ID is ----->" + oauthClientId);
+        log.info("Jecret is ----->" + oauthClientSecret);
 
         RestTemplate restTemplate = new RestTemplate();
         String apiPath = baseApiUrl + oauthTokenPath;
@@ -51,7 +61,9 @@ public class OAuthService {
 
         HttpEntity<MultiValueMap<String, String>> entity = new HttpEntity<>(oauthInputData, headers);
 
-        return restTemplate.postForEntity(apiPath, entity, OAuthToken.class);
+        ResponseEntity<OAuthToken> response = restTemplate.postForEntity(apiPath, entity, OAuthToken.class);
+        tokenMap.put(response.getBody().getAccessToken(), response.getBody().getRefreshToken());
+        return response;
     }
 
 
@@ -61,7 +73,6 @@ public class OAuthService {
         String oauthTokenPath = environment.getProperty("macquarie.oauth.tokenPath");
         String oauthClientId = environment.getProperty("macquarie.oauth.clientId");
         String oauthClientSecret = environment.getProperty("macquarie.oauth.clientSecret");
-        String oauthGrantType = environment.getProperty("macquarie.oauth.grantType");
 
         RestTemplate restTemplate = new RestTemplate();
         String apiPath = baseApiUrl + oauthTokenPath;
@@ -80,5 +91,17 @@ public class OAuthService {
         return restTemplate.postForEntity(apiPath, entity, OAuthToken.class);
     }
 
+    public String refreshToken(String existingToken) {
+
+        if (!tokenMap.containsKey(existingToken)) {
+            return null;
+        }
+
+        String refreshToken = tokenMap.get(existingToken);
+        ResponseEntity<OAuthToken> accessCodeResponse = this.getTokenByRefreshToken(refreshToken);
+        String updatedToken = accessCodeResponse.getBody().getAccessToken();
+        tokenMap.put(existingToken, accessCodeResponse.getBody().getRefreshToken());
+        return updatedToken;
+    }
 
 }

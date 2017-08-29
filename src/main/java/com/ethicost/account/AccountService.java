@@ -1,5 +1,6 @@
 package com.ethicost.account;
 
+import com.ethicost.oauth.OAuthService;
 import com.ethicost.oauth.OAuthToken;
 import com.ethicost.transaction.Transaction;
 import com.ethicost.transaction.TransactionRepository;
@@ -41,6 +42,9 @@ public class AccountService {
     @Autowired
     private TransactionRepository transactionRepository;
 
+    @Autowired
+    private OAuthService oAuthService;
+
     public List<String> getAccounts(String authorizationHeader) {
 
         String baseApiUrl = environment.getProperty("macquarie.apiUrl");
@@ -52,7 +56,13 @@ public class AccountService {
         HttpHeaders headers = new HttpHeaders();
         //headers.setContentType(MediaType.APPLICATION_FORM_URLENCODED);
         headers.set(CLIENT_ID, clientId);
-        headers.set(AUTHORIZATION, authorizationHeader);
+
+        String refreshToken = oAuthService.refreshToken(authorizationHeader);
+        if (null == refreshToken) {
+            headers.set(AUTHORIZATION, authorizationHeader);
+        } else {
+            headers.set(AUTHORIZATION, refreshToken);
+        }
 
         HttpEntity<String> entity = new HttpEntity<String>("", headers);
         List<String> accountIds = restTemplate.exchange(apiPath, HttpMethod.GET, entity, MacAccountResponse.class)

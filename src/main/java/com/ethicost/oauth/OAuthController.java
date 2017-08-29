@@ -19,25 +19,12 @@ public class OAuthController {
 
     private final OAuthService oAuthService;
 
-    private static Map<String, OAuthToken> tokenMap = new HashMap<>();
+    private static Map<String, String> tokenMap = new HashMap<>();
 
-    @RequestMapping(value = "/token", method = RequestMethod.GET)
+    @RequestMapping(value = "/token",method= RequestMethod.GET)
     @ResponseBody
-    public OAuthToken getToken(@RequestParam(value = "accessCode", defaultValue = "") String accessCode) {
-
-        OAuthToken existedToken = tokenMap.get(accessCode);
-        if (existedToken == null) {
-            ResponseEntity<OAuthToken> accessCodeResponse = oAuthService.getToken(accessCode);
-            OAuthToken storedToken = accessCodeResponse.getBody();
-
-            tokenMap.put(accessCode, storedToken);
-            return accessCodeResponse.getBody();
-        } else {
-
-            String refreshToken = existedToken.getRefreshToken();
-            ResponseEntity<OAuthToken> accessCodeResponse = oAuthService.getTokenByRefreshToken(refreshToken);
-            tokenMap.put(accessCode, accessCodeResponse.getBody());
-            return accessCodeResponse.getBody();
-        }
+    public String getToken(@RequestParam(value = "accessCode", defaultValue = "") String accessCode) {
+        ResponseEntity<OAuthToken> accessCodeResponse =  oAuthService.getToken(accessCode);
+        return accessCodeResponse.getBody().getAccessToken();
     }
 }
