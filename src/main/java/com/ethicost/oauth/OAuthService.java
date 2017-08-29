@@ -29,8 +29,6 @@ public class OAuthService {
 
     private static Map<String, String> tokenMap = new HashMap<>();
 
-
-    @Slf4j
     @Autowired
     public OAuthService(Environment environment) {
         this.environment = environment;
