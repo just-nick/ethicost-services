@@ -15,9 +15,12 @@ public class MerchantService {
 
     private MerchantRepository merchantRepository;
 
-    public int insertMerchant() {
+    public int insertMerchant(MerchantRequest request) {
         Merchant dummy = new Merchant();
-        dummy.setMerchantName("Macquarie");
+        dummy.setMerchantName(request.getMerchantName());
+        dummy.setMerchantDescription(request.getMerchantDescription());
+        dummy.setCategory(request.getCategory());
+        dummy.setRating(request.getRating());
         return merchantRepository.save(dummy).getId();
     }
 

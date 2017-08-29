@@ -37,8 +37,8 @@ public class Merchant {
 
     private String category;
 
-    @OneToMany(mappedBy = "merchant")
-    private List<Transaction> transactions;
+//    @OneToMany(mappedBy = "merchant")
+//    private List<Transaction> transactions;
 
     @CreationTimestamp
     @Temporal(TemporalType.TIMESTAMP)
